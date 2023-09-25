@@ -16,9 +16,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-aws_access_key_id = "AKIAU4PD3WV4JBD25BZK"
-aws_secret_access_key = "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"
-aws_region = "ap-south-1"
+aws_access_key_id = ""
+aws_secret_access_key = ""
+aws_region = ""
 
 # Initialize the DynamoDB client with the credentials and region
 dynamodb = boto3.resource("dynamodb", region_name=aws_region, aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
